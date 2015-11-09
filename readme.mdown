@@ -1,0 +1,1 @@
+Development of this app is currently stalled - there are technical errors within the USDA's Nutrients Database that prevent API requests from being completed.  Since this app was started as part of a job interview process, I have chosen to basically cut my losses and move on for right now.  I do plan to return to this, just not until at least 11/16/2015.
