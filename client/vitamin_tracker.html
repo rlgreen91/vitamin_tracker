@@ -1,14 +1,21 @@
 <head>
-  <title>vitamin_tracker</title>
+  	<title>Vitamin Tracker</title>
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+ 	<h1>Vitamin Tracker</h1>
+  	<p>This is an app that will tell the amount of vitamins and minerals in a serving of a type of food</p>
 
-  {{> hello}}
+  	<form class="new-food">
+  		<input type="text" name="text" placeholder="Add a new food" />
+  	</form>
+
+  	<p>The nutrients in this food are{{> nutrientlist}} </p>
+ 
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="nutrientlist">
+	<ul>
+		<li>{{text}}</li>
+	</ul>
 </template>
