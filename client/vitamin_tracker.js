@@ -1,3 +1,3 @@
-Template.body.helpers({
-  nutrientlist: [ { text: "Insert nutrient list" } ]
+Template.nutrientlist.helpers({
+  text: "Insert nutrient list"  
 });
